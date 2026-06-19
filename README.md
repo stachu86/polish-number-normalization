@@ -1,4 +1,4 @@
-The PolishNumberNormalizer class converts spelled-out numbers into their digit form.
+The `PolishNumberNormalizer` class converts spelled-out numbers into their digit form.
 In its current form, it supports integer numbers, decimal numbers with up to three digits of precision, and numerals used to express dates and time. To ensure unambiguous normalization of number sequences, individual numerals should be separated by commas.
 
 The code is a modification of [`EnglishNumberNormalizer`](https://github.com/openai/whisper/blob/main/whisper/normalizers/english.py).
